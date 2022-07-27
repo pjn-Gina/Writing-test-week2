@@ -194,5 +194,12 @@ console.log(document.querySelectorAll(".work"))
 let header = document.getElementById("header")
 header.textContent = "Selamat Datang"
 
+//DOM EVENT
 
+let inputData = document.getElementById("inputData")
+let buttonSubmit = document.getElementById("submitData")
+
+buttonSubmit.addEventListener("click",function(){
+    alert(inputData.value);
+})
 

@@ -300,11 +300,27 @@ Contohnya :
 
     >**.createElement()** => **.textContent** *untuk mengubah content nya* => **.appendChild()** *untuk menambahkan ke DOM*
 
+### **DOM Event**
+> Document Object Model yang bertugas untuk membantu interaksi *user* dengan dokumen HTML
 
+>Berbagai HTML DOM Event
+>- click
+>- submit
+>- focus
+>- change
+>- hover
+>- scroll
+>- blur
 
+> => Untuk menangkap interaksi user kita bisa menggunakan :
+>> **Element.addEventListener("event")**
 
+Contohnya :
 
+![contoh event click](./assets/contoh-event-click.PNG)
 
+![contoh event click](./assets/DOM-event.PNG)
 
+![contoh event click](./assets/submit-data.PNG)
 
-
+![contoh event click](./assets/pop-up-event-click.PNG)
