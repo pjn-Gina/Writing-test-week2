@@ -246,16 +246,59 @@ Contohnya :
     name, age, hobby: adalah attribute dari object
     Vadia, 14, painting : adalah value dari attribut
 
-### Cek Tipe Data
+### **Cek Tipe Data**
 >Untuk mengecek type data yaitu dengan cara berikut:
 
 ![cek tipe data](./assets/cek%20type%20data.PNG)
 
 
 ## **Javascript DOM**
->DOM (Document Object Model)
+>Untuk menghubungkan file HTML dengan Javascript kita menggunakan tag `<script>` dengan attribute **source** atau **src**. Tag `<script>` bisa ditulis di dalam bagian penutup dari tag `</body>`
+
+### **DOM (Document Object Model)**
+
+> Javascript DOM digunakan untuk memanipulasi tampilan web menggunakan bahasa pemograman
+
+### **Memanipulasi Element HTML**
+1. Mencari Element HTML
+
+    
+    -----------------------------------
+    - Mencari satu element dengan ID tertentu
+    -----------------------------------
+    Contoh :
+    
+    ![contoh pemanggilan dengan ID](./assets/id1.PNG)
+    ![contoh pemanggilan element dengan ID](./assets/getelementbyid.PNG)
+    
+    -----------------------------------
+
+    - Mencari beberapa element sekaligus dengan class tertentu
+    -----------------------------------
+    Contoh :
+
+    ![contoh](./assets/class.PNG)
+
+    ![className](./assets/getelementbyclassname.PNG)
+
+    -----------------------------------
+ 
+
+    - Mencari element dengan menggunakan kombinasi selector 
+    -----------------------------------
+
+    ![querry selector](./assets/querryselector.PNG)
+    -----------------------------------
 
 
+2. Mengubah Konten Element
+    - **.textContent** = digunakan untuk mengubah *teks* di dalam sebuah element.
+    - **.innerHTML** = digunakan untuk mengubah *konten HTML* di dalam sebuah element.
+    ------------------------
+3. Membuat Element
+    > untuk membuat element HTML kita bisa menggunakan cara berikut ini.
+
+    >**.createElement()** => **.textContent** *untuk mengubah content nya* => **.appendChild()** *untuk menambahkan ke DOM*
 
 
 

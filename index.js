@@ -10,13 +10,11 @@ console.log(number) // 3.14
 
 
 
-let data = "Vadia"
+// let data = "Vadia"
+// let dataBaru = 'Meisya'
 
-
-let dataBaru = 'Meisya'
-
-const apakahSudahLulus = true
-const apakahSudahBekerja = false
+// const apakahSudahLulus = true
+// const apakahSudahBekerja = false
 
 
 let jumlahSiswaA = 15
@@ -176,5 +174,25 @@ let identitasOrang = {
 
 //cek tipe data
 console.log(typeof identitasOrang); // Output : object
+
+
+//DOM (Document Object Model)
+//mencari satu element dengan ID
+console.log(document.getElementById("header")); 
+// Output : "Hello World"
+
+// //mencari beberapa element dengan class
+// console.log(document.getElementsByClassName("work"))
+
+//mencari element menggunakan querryselector
+
+console.log(document.querySelector(".work"))
+console.log(document.querySelectorAll(".work"))
+
+//manipulasi/ mengubah content
+
+let header = document.getElementById("header")
+header.textContent = "Selamat Datang"
+
 
 
